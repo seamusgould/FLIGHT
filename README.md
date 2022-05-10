@@ -8,18 +8,19 @@ Dr. Fill, visit [The algorithm that won against human competitors](https://arxiv
 
 # Implementation
 
-To learn more about the implementation, look at the attached pdf titled "FLITE Implementation.pdf."
+To learn more about the implementation, look at the attached read this [presentation](https://github.com/seamusgould/FLIGHT/blob/master/CMPU366_Final_Presentation.pdf)
+or read the [paper](https://github.com/seamusgould/FLIGHT/blob/master/CMPU366CrossWords.pdf).
 
 # Setup
 
 ## Requirements
 In order to run the program, you must have the following installed:
-time
-tqdm
-numpy
-argparse
-copy
-fasttext
+- time
+- tqdm
+- numpy
+- argparse
+- copy
+- fasttext
 
 ## Run the program
 
@@ -34,7 +35,7 @@ Here is one example of the program running:
 
     $ python3 CheckFoundPuzzle -m ../<model location> -xd ../<board_location> -a .1
 
-# Examples
+# Example
 
 This is an example of the program running the United States Today crossword puzzle from january first, 2017.
 

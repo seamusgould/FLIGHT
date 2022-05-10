@@ -2,7 +2,6 @@ import numpy as np
 import re
 import argparse
 from copy import deepcopy
-import pdb
 
 def parse_them(fp):
     across_clues = {}
