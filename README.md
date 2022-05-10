@@ -1,6 +1,6 @@
 # FLITE
 
-## Description
+## ✈️ Description
 
 FLITE is a crossword puzzle solver that is loosely based on the record breaking algorithm Dr. Fill.  To learn more about
 Dr. Fill, visit [The algorithm that won against human competitors](https://arxiv.org/abs/1401.4597).  This is a test.
