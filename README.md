@@ -39,5 +39,5 @@ Here is one example of the program running:
 This is an example of the program running the United States Today crossword puzzle from january first, 2017.
 
 The puzzle will be solved with the correct accuracy being printed out 
-![grab-landing-page](https://github.com/seamusgould/FLIGHT/example.gif)
+![grab-landing-page](https://github.com/seamusgould/FLIGHT/blob/master/example.gif?raw=true)
 
