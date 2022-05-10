@@ -8,20 +8,36 @@ Dr. Fill, visit [The algorithm that won against human competitors](https://arxiv
 
 # Implementation
 
-- Line 79 contains all of the needed code to run the program.
-- This is how it works:
-- 1. The method takes in all the arguments from the command line.
-- 2. If the puzzle is done, it will print out the solution and quit the program.
-- 3. If the puzzle is not done, it will print out the current state of the puzzle along
-with the threshold, number of branches, and delta values.
-- 4. For each branch, it will add a word and parse the branches that are unlikely to be
-the solution. 
-- 5. Iterate across thresholds and adds to branches new possibilities.
+To learn more about the implementation, look at the attached pdf titled "FLITE Implementation.pdf."
 
-# Problems
+# Setup
 
-1. Ideally, each branch should write a different word to a different clue, but as of right
-now, it writes different words to different clues.  There should be a way to control this, no?
-2. The program is slow.  Too many branches.  There should be a way to control this, no?
-3. There is a lot of repetition in the code.  When this occurs, we can make a new method.
-4. It would be nice to have a way display the numpy array as a gui, though this is not essential.
+## Requirements
+In order to run the program, you must have the following installed:
+time
+tqdm
+numpy
+argparse
+copy
+fasttext
+
+## Run the program
+
+ - In order to run the program, you must have the data/crossword in xd format.
+ - In order to get crosswords online, xl-word has an excellent library to accomplish this: [xword-dl](https://github.com/thisisparker/xword-dl).
+To learn more about xd formats, visit the following repository [Crossword Format](https://github.com/century-arcade/xd)
+which allows users to convert .puz files into .xd files.
+ - In order to run the program, you must first add a fasttext model to the data/fasttext folder.  To learn more about fasttext, visit [FastText](https://fasttext.cc/).
+To download our pretrained fasttext model, visit the following link: [Download](https://drive.google.com/file/d/1AZeDvWbBzC6mvLbcC-Kz9_y2jjULsv-A/view?usp=sharing)
+
+Here is one example of the program running:
+
+    $ python3 CheckFoundPuzzle -m ../<model location> -xd ../<board_location> -a .1
+
+# Examples
+
+This is an example of the program running the United States Today crossword puzzle from january first, 2017.
+
+The puzzle will be solved with the correct accuracy being printed out 
+![grab-landing-page](https://github.com/seamusgould/FLIGHT/example.gif)
+
