@@ -20,7 +20,7 @@ In order to run the program, you must have the following installed:
 - numpy
 - argparse
 - copy
-- fasttext
+- fastText
 
 ## Run the program
 
