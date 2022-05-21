@@ -1,5 +1,7 @@
 # FLIGHT
 
+A lightweight implementation of Dr. Fill (**Fill light**). 
+
 ## ✈️ Description
 
 FLIGHT is a crossword puzzle solver that is loosely based on the record breaking algorithm Dr. Fill.  To learn more about
