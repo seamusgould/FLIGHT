@@ -13,6 +13,8 @@ Dr. Fill, you can read the [original paper here](https://arxiv.org/abs/1401.4597
 To learn more about the implementation, look at the attached read this [presentation](https://github.com/seamusgould/FLIGHT/blob/master/CMPU366_Final_Presentation.pdf)
 or read the [paper](https://github.com/seamusgould/FLIGHT/blob/master/CMPU366CrossWords.pdf).
 
+The statistics on crossword solvers can be found in the document titled Crosswords.html.
+
 # Setup
 
 ## Requirements
@@ -39,7 +41,7 @@ Here is one example of the program running:
 
 # Example
 
-This is an example of the program running the United States Today crossword puzzle from january first, 2017.
+This is an example of the program running the United States Today crossword puzzle from January 1, 2017.
 
 The puzzle will be solved with the correct accuracy being printed out 
 ![grab-landing-page](https://github.com/seamusgould/FLIGHT/blob/master/example.gif?raw=true)
